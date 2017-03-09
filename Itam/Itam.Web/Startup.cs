@@ -39,6 +39,8 @@ namespace Itam.Web
             loggerFactory.AddConsole(Configuration.GetSection("Logging"));
             loggerFactory.AddDebug();
 
+            
+
             app.UseMvc();
         }
     }
