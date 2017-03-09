@@ -1,0 +1,8 @@
+F:\Users\Administrator\Source\Repos\itam\Itam\Itam.Web\bin\Debug\netcoreapp1.1\Itam.Web.deps.json
+F:\Users\Administrator\Source\Repos\itam\Itam\Itam.Web\bin\Debug\netcoreapp1.1\Itam.Web.runtimeconfig.json
+F:\Users\Administrator\Source\Repos\itam\Itam\Itam.Web\bin\Debug\netcoreapp1.1\Itam.Web.runtimeconfig.dev.json
+F:\Users\Administrator\Source\Repos\itam\Itam\Itam.Web\bin\Debug\netcoreapp1.1\Itam.Web.dll
+F:\Users\Administrator\Source\Repos\itam\Itam\Itam.Web\bin\Debug\netcoreapp1.1\Itam.Web.pdb
+F:\Users\Administrator\Source\Repos\itam\Itam\Itam.Web\obj\Debug\netcoreapp1.1\Itam.Web.AssemblyInfo.cs
+F:\Users\Administrator\Source\Repos\itam\Itam\Itam.Web\obj\Debug\netcoreapp1.1\Itam.Web.dll
+F:\Users\Administrator\Source\Repos\itam\Itam\Itam.Web\obj\Debug\netcoreapp1.1\Itam.Web.pdb
