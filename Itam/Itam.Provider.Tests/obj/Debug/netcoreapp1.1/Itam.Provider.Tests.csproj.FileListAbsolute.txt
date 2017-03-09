@@ -1,0 +1,12 @@
+F:\Users\Administrator\Source\Repos\itam\Itam\Itam.Provider.Tests\bin\Debug\netcoreapp1.1\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+F:\Users\Administrator\Source\Repos\itam\Itam\Itam.Provider.Tests\bin\Debug\netcoreapp1.1\xunit.runner.utility.netstandard15.dll
+F:\Users\Administrator\Source\Repos\itam\Itam\Itam.Provider.Tests\bin\Debug\netcoreapp1.1\xunit.runner.reporters.netstandard15.dll
+F:\Users\Administrator\Source\Repos\itam\Itam\Itam.Provider.Tests\bin\Debug\netcoreapp1.1\Itam.Provider.Tests.deps.json
+F:\Users\Administrator\Source\Repos\itam\Itam\Itam.Provider.Tests\bin\Debug\netcoreapp1.1\Itam.Provider.Tests.runtimeconfig.json
+F:\Users\Administrator\Source\Repos\itam\Itam\Itam.Provider.Tests\bin\Debug\netcoreapp1.1\Itam.Provider.Tests.runtimeconfig.dev.json
+F:\Users\Administrator\Source\Repos\itam\Itam\Itam.Provider.Tests\bin\Debug\netcoreapp1.1\Itam.Provider.Tests.dll
+F:\Users\Administrator\Source\Repos\itam\Itam\Itam.Provider.Tests\bin\Debug\netcoreapp1.1\Itam.Provider.Tests.pdb
+F:\Users\Administrator\Source\Repos\itam\Itam\Itam.Provider.Tests\obj\Debug\netcoreapp1.1\Itam.Provider.Tests.csprojResolveAssemblyReference.cache
+F:\Users\Administrator\Source\Repos\itam\Itam\Itam.Provider.Tests\obj\Debug\netcoreapp1.1\Itam.Provider.Tests.AssemblyInfo.cs
+F:\Users\Administrator\Source\Repos\itam\Itam\Itam.Provider.Tests\obj\Debug\netcoreapp1.1\Itam.Provider.Tests.dll
+F:\Users\Administrator\Source\Repos\itam\Itam\Itam.Provider.Tests\obj\Debug\netcoreapp1.1\Itam.Provider.Tests.pdb

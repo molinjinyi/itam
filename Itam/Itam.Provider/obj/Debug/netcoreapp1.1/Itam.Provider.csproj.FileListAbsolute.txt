@@ -1,0 +1,7 @@
+F:\Users\Administrator\Source\Repos\itam\Itam\Itam.Provider\bin\Debug\netcoreapp1.1\Itam.Provider.deps.json
+F:\Users\Administrator\Source\Repos\itam\Itam\Itam.Provider\bin\Debug\netcoreapp1.1\Itam.Provider.dll
+F:\Users\Administrator\Source\Repos\itam\Itam\Itam.Provider\bin\Debug\netcoreapp1.1\Itam.Provider.pdb
+F:\Users\Administrator\Source\Repos\itam\Itam\Itam.Provider\obj\Debug\netcoreapp1.1\Itam.Provider.csprojResolveAssemblyReference.cache
+F:\Users\Administrator\Source\Repos\itam\Itam\Itam.Provider\obj\Debug\netcoreapp1.1\Itam.Provider.AssemblyInfo.cs
+F:\Users\Administrator\Source\Repos\itam\Itam\Itam.Provider\obj\Debug\netcoreapp1.1\Itam.Provider.dll
+F:\Users\Administrator\Source\Repos\itam\Itam\Itam.Provider\obj\Debug\netcoreapp1.1\Itam.Provider.pdb
