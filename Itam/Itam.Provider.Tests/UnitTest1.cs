@@ -8,6 +8,7 @@ namespace Itam.Provider.Tests
         [Fact]
         public void Test1()
         {
+            var a = 1;
         }
     }
 }
