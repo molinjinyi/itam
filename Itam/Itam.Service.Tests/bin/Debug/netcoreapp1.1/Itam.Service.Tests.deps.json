@@ -1,13 +1,15 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v1.1",
-    "signature": "14959d3bfa504a63bc4c3ef1e2c39f61af0c1e93"
+    "signature": "2efdb4a434d59a1dd75f35635842b55c4be3243d"
   },
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v1.1": {
       "itam.service.tests/1.0.0": {
         "dependencies": {
+          "Itam.Core": "1.0.0",
+          "Itam.Service": "1.0.0",
           "Microsoft.NET.Test.Sdk": "15.0.0",
           "xunit": "2.2.0",
           "xunit.runner.visualstudio": "2.2.0"
@@ -16,9 +18,67 @@
           "Itam.Service.Tests.dll": {}
         }
       },
+      "dapper/1.50.0": {
+        "dependencies": {
+          "System.Collections.NonGeneric": "4.0.1",
+          "System.Data.SqlClient": "4.1.0"
+        },
+        "runtime": {
+          "lib/netstandard1.3/Dapper.dll": {}
+        }
+      },
+      "dapper.sqlbuilder/1.50.0": {
+        "dependencies": {
+          "Dapper": "1.50.0"
+        },
+        "runtime": {
+          "lib/netstandard1.3/Dapper.SqlBuilder.dll": {}
+        }
+      },
+      "google.protobuf/3.0.0": {
+        "runtime": {
+          "lib/netstandard1.0/Google.Protobuf.dll": {}
+        }
+      },
       "microsoft.dotnet.platformabstractions/1.1.0": {
         "runtime": {
           "lib/netstandard1.3/Microsoft.DotNet.PlatformAbstractions.dll": {}
+        }
+      },
+      "microsoft.extensions.configuration/1.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Configuration.Abstractions": "1.0.0"
+        },
+        "runtime": {
+          "lib/netstandard1.1/Microsoft.Extensions.Configuration.dll": {}
+        }
+      },
+      "microsoft.extensions.configuration.abstractions/1.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "1.0.0"
+        },
+        "runtime": {
+          "lib/netstandard1.0/Microsoft.Extensions.Configuration.Abstractions.dll": {}
+        }
+      },
+      "microsoft.extensions.configuration.fileextensions/1.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Configuration": "1.0.0",
+          "Microsoft.Extensions.FileProviders.Physical": "1.0.0"
+        },
+        "runtime": {
+          "lib/netstandard1.3/Microsoft.Extensions.Configuration.FileExtensions.dll": {}
+        }
+      },
+      "microsoft.extensions.configuration.json/1.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Configuration": "1.0.0",
+          "Microsoft.Extensions.Configuration.FileExtensions": "1.0.0",
+          "Newtonsoft.Json": "9.0.1",
+          "System.Runtime.Serialization.Primitives": "4.1.1"
+        },
+        "runtime": {
+          "lib/netstandard1.3/Microsoft.Extensions.Configuration.Json.dll": {}
         }
       },
       "microsoft.extensions.dependencymodel/1.1.0": {
@@ -28,6 +88,33 @@
         },
         "runtime": {
           "lib/netstandard1.6/Microsoft.Extensions.DependencyModel.dll": {}
+        }
+      },
+      "microsoft.extensions.fileproviders.abstractions/1.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "1.0.0"
+        },
+        "runtime": {
+          "lib/netstandard1.0/Microsoft.Extensions.FileProviders.Abstractions.dll": {}
+        }
+      },
+      "microsoft.extensions.fileproviders.physical/1.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.FileProviders.Abstractions": "1.0.0",
+          "Microsoft.Extensions.FileSystemGlobbing": "1.0.0"
+        },
+        "runtime": {
+          "lib/netstandard1.3/Microsoft.Extensions.FileProviders.Physical.dll": {}
+        }
+      },
+      "microsoft.extensions.filesystemglobbing/1.0.0": {
+        "runtime": {
+          "lib/netstandard1.3/Microsoft.Extensions.FileSystemGlobbing.dll": {}
+        }
+      },
+      "microsoft.extensions.primitives/1.0.0": {
+        "runtime": {
+          "lib/netstandard1.0/Microsoft.Extensions.Primitives.dll": {}
         }
       },
       "microsoft.net.test.sdk/15.0.0": {
@@ -261,12 +348,50 @@
           }
         }
       },
+      "mysql.data/7.0.6-ir31": {
+        "dependencies": {
+          "Google.Protobuf": "3.0.0",
+          "Microsoft.Extensions.Configuration.Json": "1.0.0",
+          "System.Collections.NonGeneric": "4.0.1",
+          "System.ComponentModel.Primitives": "4.1.0",
+          "System.ComponentModel.TypeConverter": "4.1.0",
+          "System.Data.Common": "4.1.0",
+          "System.Data.SqlClient": "4.1.0",
+          "System.Diagnostics.TextWriterTraceListener": "4.0.0",
+          "System.IO.Pipes": "4.0.0"
+        },
+        "runtime": {
+          "lib/netstandard1.6/MySql.Data.dll": {}
+        }
+      },
       "newtonsoft.json/9.0.1": {
         "dependencies": {
           "System.Runtime.Serialization.Primitives": "4.1.1"
         },
         "runtime": {
           "lib/netstandard1.0/Newtonsoft.Json.dll": {}
+        }
+      },
+      "runtime.native.system.data.sqlclient.sni/4.0.0": {
+        "dependencies": {
+          "runtime.win7-x64.runtime.native.System.Data.SqlClient.sni": "4.0.1",
+          "runtime.win7-x86.runtime.native.System.Data.SqlClient.sni": "4.0.1"
+        }
+      },
+      "runtime.win7-x64.runtime.native.system.data.sqlclient.sni/4.0.1": {
+        "runtimeTargets": {
+          "runtimes/win7-x64/native/sni.dll": {
+            "rid": "win7-x64",
+            "assetType": "native"
+          }
+        }
+      },
+      "runtime.win7-x86.runtime.native.system.data.sqlclient.sni/4.0.1": {
+        "runtimeTargets": {
+          "runtimes/win7-x86/native/sni.dll": {
+            "rid": "win7-x86",
+            "assetType": "native"
+          }
         }
       },
       "system.collections.nongeneric/4.0.1": {
@@ -302,6 +427,28 @@
           "lib/netstandard1.5/System.ComponentModel.TypeConverter.dll": {}
         }
       },
+      "system.data.common/4.1.0": {
+        "runtime": {
+          "lib/netstandard1.2/System.Data.Common.dll": {}
+        }
+      },
+      "system.data.sqlclient/4.1.0": {
+        "dependencies": {
+          "System.Data.Common": "4.1.0",
+          "System.IO.Pipes": "4.0.0",
+          "runtime.native.System.Data.SqlClient.sni": "4.0.0"
+        },
+        "runtimeTargets": {
+          "runtimes/unix/lib/netstandard1.3/System.Data.SqlClient.dll": {
+            "rid": "unix",
+            "assetType": "runtime"
+          },
+          "runtimes/win/lib/netstandard1.3/System.Data.SqlClient.dll": {
+            "rid": "win",
+            "assetType": "runtime"
+          }
+        }
+      },
       "system.diagnostics.textwritertracelistener/4.0.0": {
         "dependencies": {
           "System.Diagnostics.TraceSource": "4.0.0"
@@ -317,6 +464,18 @@
             "assetType": "runtime"
           },
           "runtimes/win/lib/netstandard1.3/System.Diagnostics.TraceSource.dll": {
+            "rid": "win",
+            "assetType": "runtime"
+          }
+        }
+      },
+      "system.io.pipes/4.0.0": {
+        "runtimeTargets": {
+          "runtimes/unix/lib/netstandard1.3/System.IO.Pipes.dll": {
+            "rid": "unix",
+            "assetType": "runtime"
+          },
+          "runtimes/win/lib/netstandard1.3/System.IO.Pipes.dll": {
             "rid": "win",
             "assetType": "runtime"
           }
@@ -398,6 +557,23 @@
           "Microsoft.Extensions.DependencyModel": "1.1.0",
           "Microsoft.TestPlatform.ObjectModel": "15.0.0"
         }
+      },
+      "itam.core/1.0.0": {
+        "dependencies": {
+          "MySql.Data": "7.0.6-IR31"
+        },
+        "runtime": {
+          "Itam.Core.dll": {}
+        }
+      },
+      "itam.service/1.0.0": {
+        "dependencies": {
+          "Dapper.SqlBuilder": "1.50.0",
+          "Itam.Core": "1.0.0"
+        },
+        "runtime": {
+          "Itam.Service.dll": {}
+        }
       }
     }
   },
@@ -407,6 +583,27 @@
       "serviceable": false,
       "sha512": ""
     },
+    "dapper/1.50.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-pHf1WtHEvn82Y/2oB0ZavUuyxDMds+UymoZHtgEW6U2zAQLz0YfjIT8WxkWq+J5Cp7hwqFWb/0LHBMzdxyQu0A==",
+      "path": "dapper/1.50.0",
+      "hashPath": "dapper.1.50.0.nupkg.sha512"
+    },
+    "dapper.sqlbuilder/1.50.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-L02v81E6qIXoXEQV2bilzDZ1bXDEBdCNvI11P07jVt6mNfUWmQ5Z986qOSWueIaosjy08AaMUR5vQ5O5qxUqUQ==",
+      "path": "dapper.sqlbuilder/1.50.0",
+      "hashPath": "dapper.sqlbuilder.1.50.0.nupkg.sha512"
+    },
+    "google.protobuf/3.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-l5CH4IoWys8hIQR53F+nM3RpFOX12Jj9iXVOh30ejoz0TRHApzvAHc+5T5mGnMWa/vCVfYFZkhqStn+IuK8+5g==",
+      "path": "google.protobuf/3.0.0",
+      "hashPath": "google.protobuf.3.0.0.nupkg.sha512"
+    },
     "microsoft.dotnet.platformabstractions/1.1.0": {
       "type": "package",
       "serviceable": true,
@@ -414,12 +611,68 @@
       "path": "microsoft.dotnet.platformabstractions/1.1.0",
       "hashPath": "microsoft.dotnet.platformabstractions.1.1.0.nupkg.sha512"
     },
+    "microsoft.extensions.configuration/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-hR4yYebruRp6qyFnV3RW4qrnEb0J1LnMmQbj50AUA423V8dMs4E3YAohsyRyGBFnpbJ+KKzieSG/n2A6T0klZQ==",
+      "path": "microsoft.extensions.configuration/1.0.0",
+      "hashPath": "microsoft.extensions.configuration.1.0.0.nupkg.sha512"
+    },
+    "microsoft.extensions.configuration.abstractions/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-nJ+Et/rnDMDmGhxvFAKdN3va7y+YDPICv1nUEP8I4IKgOkWwr/dCZHMqxVhJFrkbW9ux8Kd7erC4mvxfZh0WnA==",
+      "path": "microsoft.extensions.configuration.abstractions/1.0.0",
+      "hashPath": "microsoft.extensions.configuration.abstractions.1.0.0.nupkg.sha512"
+    },
+    "microsoft.extensions.configuration.fileextensions/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-MO7XtmLiqnpgVTX34uzFPvIS7jPmBUGLN0MP5MsYu6CqYTIs90ULjtrV5TegH5mTqKTXWjZRGXL26R6apTyc4w==",
+      "path": "microsoft.extensions.configuration.fileextensions/1.0.0",
+      "hashPath": "microsoft.extensions.configuration.fileextensions.1.0.0.nupkg.sha512"
+    },
+    "microsoft.extensions.configuration.json/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-KRyEOe5/Xi3qyDMdEVh++e2pQRsI6C3wzINVExOcu9lOsFmXK/k4qOf244fyo59rnn6s5xKnIW3WbhxWS1hu2w==",
+      "path": "microsoft.extensions.configuration.json/1.0.0",
+      "hashPath": "microsoft.extensions.configuration.json.1.0.0.nupkg.sha512"
+    },
     "microsoft.extensions.dependencymodel/1.1.0": {
       "type": "package",
       "serviceable": true,
       "sha512": "sha512-TG7dJ8GY1Myz9lZ8DJL4i6D05ncJQBi5CjBMXMdJ4edKxaW+vP2DndDd1jJabdMdmVRdGrvybzqkB+A6Df7eDw==",
       "path": "microsoft.extensions.dependencymodel/1.1.0",
       "hashPath": "microsoft.extensions.dependencymodel.1.1.0.nupkg.sha512"
+    },
+    "microsoft.extensions.fileproviders.abstractions/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-4jsqTxG3py/hYSsOtZMkNJ2/CQqPdpwyK7bDUkrwHgqowCFSmx/C+R4IzQ+2AK2Up1fVcu+ldC0gktwidL828A==",
+      "path": "microsoft.extensions.fileproviders.abstractions/1.0.0",
+      "hashPath": "microsoft.extensions.fileproviders.abstractions.1.0.0.nupkg.sha512"
+    },
+    "microsoft.extensions.fileproviders.physical/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Ej5hGWtK3xM9YU+B2O8EdlMcJf5utbDQs9ecnfvwhENQeeNU7iI2jjnRB2d7V6o9SQZmNHPzdPvaNb3PlSMz+Q==",
+      "path": "microsoft.extensions.fileproviders.physical/1.0.0",
+      "hashPath": "microsoft.extensions.fileproviders.physical.1.0.0.nupkg.sha512"
+    },
+    "microsoft.extensions.filesystemglobbing/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-scXp1Y+hmhQKLe57Z7cSjsAEFtE4zSHHydkg1SpvG56nWwWQVpVcRAbRZsv1qIBR5/vNB4LA9xiOKnvKO/Halg==",
+      "path": "microsoft.extensions.filesystemglobbing/1.0.0",
+      "hashPath": "microsoft.extensions.filesystemglobbing.1.0.0.nupkg.sha512"
+    },
+    "microsoft.extensions.primitives/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-3q2vzfKEDjL6JFkRpk5SFA3zarYsO6+ZYgoucNImrUMzDn0mFbEOL5p9oPoWiypwypbJVVjWTf557bXZ0YFLig==",
+      "path": "microsoft.extensions.primitives/1.0.0",
+      "hashPath": "microsoft.extensions.primitives.1.0.0.nupkg.sha512"
     },
     "microsoft.net.test.sdk/15.0.0": {
       "type": "package",
@@ -442,12 +695,40 @@
       "path": "microsoft.testplatform.testhost/15.0.0",
       "hashPath": "microsoft.testplatform.testhost.15.0.0.nupkg.sha512"
     },
+    "mysql.data/7.0.6-ir31": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-PFMjB4pLdMT0lIGySbP5NVWPriqdA3ZqvLzpHTc/60VkCIAin2dZJIb6A+km9pe3At0rl7ngj4eq06t69YEJXQ==",
+      "path": "mysql.data/7.0.6-ir31",
+      "hashPath": "mysql.data.7.0.6-ir31.nupkg.sha512"
+    },
     "newtonsoft.json/9.0.1": {
       "type": "package",
       "serviceable": true,
       "sha512": "sha512-U82mHQSKaIk+lpSVCbWYKNavmNH1i5xrExDEquU1i6I5pV6UMOqRnJRSlKO3cMPfcpp0RgDY+8jUXHdQ4IfXvw==",
       "path": "newtonsoft.json/9.0.1",
       "hashPath": "newtonsoft.json.9.0.1.nupkg.sha512"
+    },
+    "runtime.native.system.data.sqlclient.sni/4.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-DcMVtYwugo1LOc9MVchInxlLNoFe/+21MsEQU9yIZX561chzxDlFDWowWF+Kc262PyD3eLkDab1JyJrs73Qtkg==",
+      "path": "runtime.native.system.data.sqlclient.sni/4.0.0",
+      "hashPath": "runtime.native.system.data.sqlclient.sni.4.0.0.nupkg.sha512"
+    },
+    "runtime.win7-x64.runtime.native.system.data.sqlclient.sni/4.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-My20HZqJbDS4rWmdOcJ3TPf9iX6M/sTF2nBSUHBvfWp1iNip3eMS+K65oQgsLRxX6h21ic3YED06c2ye2sL7FQ==",
+      "path": "runtime.win7-x64.runtime.native.system.data.sqlclient.sni/4.0.1",
+      "hashPath": "runtime.win7-x64.runtime.native.system.data.sqlclient.sni.4.0.1.nupkg.sha512"
+    },
+    "runtime.win7-x86.runtime.native.system.data.sqlclient.sni/4.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ykiYCf/0hIc0xm+g6bVX8nw9St5Ool+r4US+B+56Lv/GFnDG5G9BK4n7WkrwEpuWV3XjMn38oHgHOnNMzBVNKA==",
+      "path": "runtime.win7-x86.runtime.native.system.data.sqlclient.sni/4.0.1",
+      "hashPath": "runtime.win7-x86.runtime.native.system.data.sqlclient.sni.4.0.1.nupkg.sha512"
     },
     "system.collections.nongeneric/4.0.1": {
       "type": "package",
@@ -484,6 +765,20 @@
       "path": "system.componentmodel.typeconverter/4.1.0",
       "hashPath": "system.componentmodel.typeconverter.4.1.0.nupkg.sha512"
     },
+    "system.data.common/4.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-epU8jeTe7aE7RqGHq9rZ8b0Q4Ah7DgubzHQblgZMSqgW1saW868WmooSyC5ywf8upLBkcVLDu93W9GPWUYsU2Q==",
+      "path": "system.data.common/4.1.0",
+      "hashPath": "system.data.common.4.1.0.nupkg.sha512"
+    },
+    "system.data.sqlclient/4.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-yqMZgzzKHdG84QmA/PPZUORaoisfvztvFqyPs7dPafJhNxlS7STf9OMCFrP/tITQCqImkm1+X4d2oiWOT2oTKg==",
+      "path": "system.data.sqlclient/4.1.0",
+      "hashPath": "system.data.sqlclient.4.1.0.nupkg.sha512"
+    },
     "system.diagnostics.textwritertracelistener/4.0.0": {
       "type": "package",
       "serviceable": true,
@@ -497,6 +792,13 @@
       "sha512": "sha512-6WVCczFZKXwpWpzd/iJkYnsmWTSFFiU24Xx/YdHXBcu+nFI/ehTgeqdJQFbtRPzbrO3KtRNjvkhtj4t5/WwWsA==",
       "path": "system.diagnostics.tracesource/4.0.0",
       "hashPath": "system.diagnostics.tracesource.4.0.0.nupkg.sha512"
+    },
+    "system.io.pipes/4.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-L9QVhk8hIEix5KNA0kW58Ha+Y1dNGqqqIhAaJkhcGCWeQzUmN0njzI7SG/XAazpMecboOdFFlH3pH/qbwXLJAg==",
+      "path": "system.io.pipes/4.0.0",
+      "hashPath": "system.io.pipes.4.0.0.nupkg.sha512"
     },
     "system.private.datacontractserialization/4.1.1": {
       "type": "package",
@@ -581,6 +883,16 @@
       "sha512": "sha512-CZimTpet23CeI2oXjDtICecAuEJ8Z4xSwNFY2tTKcGfm4IzKBrFmS3yzdqMMdAfiHYUgKlcyefflLOyO9ArKyQ==",
       "path": "xunit.runner.visualstudio/2.2.0",
       "hashPath": "xunit.runner.visualstudio.2.2.0.nupkg.sha512"
+    },
+    "itam.core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "itam.service/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }

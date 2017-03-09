@@ -5,3 +5,5 @@ F:\Users\Administrator\Source\Repos\itam\Itam\Itam.Service\obj\Debug\netcoreapp1
 F:\Users\Administrator\Source\Repos\itam\Itam\Itam.Service\obj\Debug\netcoreapp1.1\Itam.Service.AssemblyInfo.cs
 F:\Users\Administrator\Source\Repos\itam\Itam\Itam.Service\obj\Debug\netcoreapp1.1\Itam.Service.dll
 F:\Users\Administrator\Source\Repos\itam\Itam\Itam.Service\obj\Debug\netcoreapp1.1\Itam.Service.pdb
+F:\Users\Administrator\Source\Repos\itam\Itam\Itam.Service\bin\Debug\netcoreapp1.1\Itam.Core.dll
+F:\Users\Administrator\Source\Repos\itam\Itam\Itam.Service\bin\Debug\netcoreapp1.1\Itam.Core.pdb

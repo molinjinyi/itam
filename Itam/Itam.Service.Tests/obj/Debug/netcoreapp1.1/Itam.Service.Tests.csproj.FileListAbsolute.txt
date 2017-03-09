@@ -10,3 +10,7 @@ F:\Users\Administrator\Source\Repos\itam\Itam\Itam.Service.Tests\obj\Debug\netco
 F:\Users\Administrator\Source\Repos\itam\Itam\Itam.Service.Tests\obj\Debug\netcoreapp1.1\Itam.Service.Tests.AssemblyInfo.cs
 F:\Users\Administrator\Source\Repos\itam\Itam\Itam.Service.Tests\obj\Debug\netcoreapp1.1\Itam.Service.Tests.dll
 F:\Users\Administrator\Source\Repos\itam\Itam\Itam.Service.Tests\obj\Debug\netcoreapp1.1\Itam.Service.Tests.pdb
+F:\Users\Administrator\Source\Repos\itam\Itam\Itam.Service.Tests\bin\Debug\netcoreapp1.1\Itam.Core.dll
+F:\Users\Administrator\Source\Repos\itam\Itam\Itam.Service.Tests\bin\Debug\netcoreapp1.1\Itam.Service.dll
+F:\Users\Administrator\Source\Repos\itam\Itam\Itam.Service.Tests\bin\Debug\netcoreapp1.1\Itam.Core.pdb
+F:\Users\Administrator\Source\Repos\itam\Itam\Itam.Service.Tests\bin\Debug\netcoreapp1.1\Itam.Service.pdb
